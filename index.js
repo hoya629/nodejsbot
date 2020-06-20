@@ -32,7 +32,7 @@ client.on('message', (message) => {
   if(message.author.bot) return;
 
   if(message.content == '야') {
-    return message.reply('반말? 지건 딱대');
+    return message.reply('반말? 지건딱대');
   }
 
   if(message.content == 'embed') {
